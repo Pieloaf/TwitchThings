@@ -50,4 +50,4 @@ sound.onended = function () {
   block.removeChild(text);
 };
 
-ComfyJS.Init("Pieloaf");
+ComfyJS.Init("YOUR-CHANNEL-NAME");
