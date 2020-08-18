@@ -4,6 +4,8 @@
 
 ### Set Up:
 
+[![](http://img.youtube.com/vi/EJ7VcSZDZTY/0.jpg)](http://www.youtube.com/watch?v=EJ7VcSZDZTY "Gif Overlay Demo")
+
 Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. New open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied
 
 ### Adding Gifs and Sounds
