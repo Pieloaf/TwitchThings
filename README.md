@@ -2,9 +2,9 @@
 
 ## 1. Gif Overlay
 
-### Set Up:
+[Gif Overlay Demo](http://www.youtube.com/watch?v=EJ7VcSZDZTY)
 
-[![](http://img.youtube.com/vi/EJ7VcSZDZTY/0.jpg)](http://www.youtube.com/watch?v=EJ7VcSZDZTY "Gif Overlay Demo")
+### Set Up:
 
 Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. New open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied
 
@@ -12,6 +12,7 @@ Open index.js with a text editor and in the last line of the file enter your cha
 
 First go to the assests folder. In here, add your gifs and audio files and rename them to be the same as the command eg `!cheesecake -> cheesecake.gif and cheesecake.mp3`(make sure the audio is an mp3).
 
+**This part is only required if you want the commands to be used with channel points**
 Now the slightly complicated part: First of all, on twitch create a new Points Reward (make sure to require text from the user).
 
 ![](imgs/custom-reward.png)
@@ -21,6 +22,7 @@ Once you're on the page, redeem the new points reward in your chat and you shoul
 
 ![](imgs/reward-id.gif)
 
+**This last part is required (Note: If you skipped the step above leave the Reward ID blank ie `"Id": ""`)**
 Now take the string provided `,{"command name here": {"text": "Text under gif goes here","Id": "Reward ID goes here"}` and insert your own details eg `,{"cheesecake": {"text": "Cheesecake!","Id": "c367cf3d-0f97-4c08-a608-e380e660dc81"}`. Finally, in gifs.js paste the string at the end of the file just inside the last `}]` in the file and save it
 
 Now you can use !reload in chat to reload the overlay. From here you're all good to go.
