@@ -19,7 +19,7 @@ Once you're on the page, redeem the new points reward in your chat and you shoul
 
 ![](imgs/reward-id.gif)
 
-Now take the string provided `{"command name here": {"text": "Text under gif goes here","Id": "Reward ID goes here"},` and insert your own details eg `{"cheesecake": {"text": "Cheesecake!","Id": "c367cf3d-0f97-4c08-a608-e380e660dc81"},`. Finally, in gifs.js paste the string at the end of the file just inside the last `}]` in the file and save it
+Now take the string provided `,{"command name here": {"text": "Text under gif goes here","Id": "Reward ID goes here"}` and insert your own details eg `,{"cheesecake": {"text": "Cheesecake!","Id": "c367cf3d-0f97-4c08-a608-e380e660dc81"}`. Finally, in gifs.js paste the string at the end of the file just inside the last `}]` in the file and save it
 
 Now you can use !reload in chat to reload the overlay. From here you're all good to go.
 
