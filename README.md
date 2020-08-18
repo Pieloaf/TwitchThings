@@ -1,6 +1,6 @@
 # Twitch Things
 
-## Gif Overlay
+## 1. Gif Overlay
 
 ### Set Up:
 
@@ -24,3 +24,10 @@ Now take the string provided `{"command name here": {"text": "Text under gif goe
 Now you can use !reload in chat to reload the overlay. From here you're all good to go.
 
 If you have any issues let me know.
+
+## 2. Stream Count Down and Loading Bar
+
+I have this one also in my scripts repository but I think it fits better here. It's a python script that counts down to the start of the stream. There's also an optional loading bar and text items with the dots increment to 3 and resetting. Each of these are written to a text file and updated once a second that OBS can then read from and display on screen:
+![](imgs/countdown.gif)
+
+To start just run StartStream.py and follow the instructions
