@@ -11,7 +11,6 @@ ComfyJS.onCommand = (user, command, message, flags, self, extra) => {
     Object.keys(gifz).forEach((element) => {
       let idxCmd = Object.keys(gifz).indexOf(element);
       if (command === element) {
-        cmd = element;
         displayGif(element, Object.values(gifz)[idxCmd].text);
       }
     });
