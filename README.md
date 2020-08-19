@@ -6,7 +6,7 @@
 
 ### Set Up:
 
-Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. New open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied. I find setting width to 1000 and heigth to 800 works best. You should be all good to go. If you want to add more gifs or use redeemable channel points it's a little more complicated, but message me on discord and I can show you (or I might add it in a seperate folder on here at some point with the neccessary files).
+Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. Now open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied. I find setting width to 1000 and heigth to 800 works best. You should be all good to go. If you want to add more gifs or use redeemable channel points it's a little more complicated, but message me on discord and I can show you (or I might add it in a seperate folder on here at some point with the neccessary files).
 
 If you have any issues let me know.
 
