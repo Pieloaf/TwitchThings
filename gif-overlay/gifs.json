@@ -1,5 +1,5 @@
 {
-  "cheesecake": { "text": "Cheesecake!", "Id": "Reward-ID" },
-  "hugs": { "text": "(>^_^)> hugs for everyone!", "Id": "Reward-ID" },
-  "pat": { "text": "(^◇^)ﾉ(・_・) pat pat", "Id": "Reward-ID" }
+  "cheesecake": { "text": "Cheesecake!" },
+  "hugs": { "text": "(>^_^)> hugs for everyone!" },
+  "pat": { "text": "(^◇^)ﾉ(・_・) pat pat" }
 }
