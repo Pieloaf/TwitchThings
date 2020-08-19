@@ -6,28 +6,11 @@
 
 ### Set Up:
 
-Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. New open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied
-
-### Adding Gifs and Sounds
-
-First go to the assests folder. In here, add your gifs and audio files and rename them to be the same as the command eg `!cheesecake -> cheesecake.gif and cheesecake.mp3`(make sure the audio is an mp3).
-
-**This part is only required if you want the commands to be used with channel points**
-Now the slightly complicated part: First of all, on twitch create a new Points Reward (make sure to require text from the user).
-
-![](imgs/custom-reward.png)
-
-Next go to this site -> https://www.instafluff.tv/TwitchCustomRewardID/?channel= and put your channel name at the end of the url, eg `https://www.instafluff.tv/TwitchCustomRewardID/?channel=Pieloaf`.
-Once you're on the page, redeem the new points reward in your chat and you should now see the reward ID in the box. Copy this ID and save it for later.
-
-![](imgs/reward-id.gif)
-
-**This last part is required (Note: If you skipped the step above leave the Reward ID blank ie `"Id": ""`)**
-Now take the string provided `,{"command name here": {"text": "Text under gif goes here","Id": "Reward ID goes here"}` and insert your own details eg `,{"cheesecake": {"text": "Cheesecake!","Id": "c367cf3d-0f97-4c08-a608-e380e660dc81"}`. Finally, in gifs.js paste the string at the end of the file just inside the last `}]` in the file and save it
-
-Now you can use !reload in chat to reload the overlay. From here you're all good to go.
+Open index.js with a text editor and in the last line of the file enter your channel name in place of `"YOUR-CHANNEL-NAME"`. New open index.html in your browser and copy the link in the address bar. Open OBS and add a new browser source and give it the link to index.html that you just copied. I find setting width to 1000 and heigth to 800 works best. You should be all good to go. If you want to add more gifs or use redeemable channel points it's a little more complicated, but message me on discord and I can show you (or I might add it in a seperate folder on here at some point with the neccessary files).
 
 If you have any issues let me know.
+
+My Discord: `Pieloaf#1999`
 
 ## 2. Stream Count Down and Loading Bar
 
